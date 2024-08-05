@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\data">
+      <UniqueIdentifier>{8eac39a1-a754-4af8-9509-5bf46862d292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\picture">
+      <UniqueIdentifier>{34b3097e-278e-4aaf-bca1-6c811acf8d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music">
+      <UniqueIdentifier>{eb69f5be-0a3e-4512-9027-1f0e7cfd44b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle_view.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginnerVIdeo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enermy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login_View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_Level_view.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pauseview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_Plant_View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_Plant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enviroment.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enviroment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quintessence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="run.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_xiaoxin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget_xiaoxin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinLose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening_plot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enermy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quintessence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_xiaoxin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget_xiaoxin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="src\music\quiet.flac">
+      <Filter>资源文件\music</Filter>
+    </None>
+    <None Include="src\music\sunnyday.flac">
+      <Filter>资源文件\music</Filter>
+    </None>
+    <None Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手.psd">
+      <Filter>资源文件\picture</Filter>
+    </None>
+    <None Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手.psd">
+      <Filter>资源文件\picture</Filter>
+    </None>
+    <None Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果.psd">
+      <Filter>资源文件\picture</Filter>
+    </None>
+    <None Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮.psd">
+      <Filter>资源文件\picture</Filter>
+    </None>
+    <None Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮.psd">
+      <Filter>资源文件\picture</Filter>
+    </None>
+    <None Include="src\music\coll.ogg">
+      <Filter>资源文件\music</Filter>
+    </None>
+    <None Include="src\video\end.ogg">
+      <Filter>资源文件\music</Filter>
+    </None>
+    <None Include="src\data\user.dat">
+      <Filter>资源文件\data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\picture\down_click.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\down_hover.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\down_normal.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Game (2).jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Game.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Game.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Login_Register.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Menu.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Menu_Setting.jpeg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\QQ图片20240723153105.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\sasuke.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Select_Level.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Select_Plants.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\up_click.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\up_hover.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\up_normal.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\picture\Vector.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\1.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\1black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\2.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\2black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\3.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\3black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\5.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\5black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\6.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\6black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\7.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\7black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\8.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\8black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\9.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\9black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_level0.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_level1.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_level2.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_level3.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_lose.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bkground_win.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet1.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet1black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet2.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet2black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet3.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet3black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet4.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet4black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet5.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet5black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet6.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet6black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet7.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet7black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet8.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet8black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet9.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet9black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet10.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet10black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet11.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\bullet11black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\CrazyDave_zombie_head1.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy1.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy1black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy2.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy2black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy3.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy3black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy4.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy4black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy5.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy5black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy6.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy6black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy7.jpeg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy7black.jpeg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy8.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy8black.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy9.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy9black.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy10.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\enermy10black.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\locked.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\pause.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\pause0.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\pausepress.jpg">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\Zombie_gargantuar_head_redeye.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\Zombie_jackbox_box.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\Zombie_yeti_head.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\禁忌之力_毁灭菇.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\禁忌之力_毁灭菇_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\禁忌之力_毁灭菇_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\急速高攻_狂野射手\急速高攻_狂野射手_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\急速高攻_狂野射手\急速高攻_狂野射手_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\平平无奇_寒冰射手\平平无奇_寒冰射手_白底彩图.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\平平无奇_寒冰射手\平平无奇_寒冰射手_黑底白图.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮_白底彩物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮_黑底白物.png">
+      <Filter>资源文件\picture</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\data\user.txt">
+      <Filter>资源文件\data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="src\music\Failed.wav">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\music\Login.mp3">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\music\play.mp3">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\music\Select.mp3">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\music\vector.wav">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\video\Beginner.mp3">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\video\Beginner.mp4">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\video\end.mp4">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\video\thanks.mp3">
+      <Filter>资源文件\music</Filter>
+    </Media>
+    <Media Include="src\video\thanks.mp4">
+      <Filter>资源文件\music</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

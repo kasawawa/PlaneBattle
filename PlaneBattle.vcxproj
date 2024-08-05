@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{59792825-8406-4d11-adfb-6f42a8b1f5a7}</ProjectGuid>
+    <RootNamespace>PlaneBattle</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>include;$(IncludePath)</IncludePath>
+    <LibraryPath>lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>irrKlang.lib;opencv_world4100d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="Battle_view.cpp" />
+    <ClCompile Include="BeginnerVIdeo.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Button_xiaoxin.cpp" />
+    <ClCompile Include="Enermy.cpp" />
+    <ClCompile Include="Enviroment.cpp" />
+    <ClCompile Include="Enviroment.h" />
+    <ClCompile Include="GameSetting.cpp" />
+    <ClCompile Include="instruction.cpp" />
+    <ClCompile Include="MenuSetting.cpp" />
+    <ClCompile Include="Opening_plot.cpp" />
+    <ClCompile Include="WinLose.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Login_View.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="quintessence.cpp" />
+    <ClCompile Include="run.cpp" />
+    <ClCompile Include="Select_Level_view.cpp" />
+    <ClCompile Include="Select_Plant.cpp" />
+    <ClCompile Include="Select_Plant_View.cpp" />
+    <ClCompile Include="pauseview.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="User.h" />
+    <ClCompile Include="Widget_xiaoxin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Button_xiaoxin.h" />
+    <ClInclude Include="Enermy.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MenuSetting.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="quintessence.h" />
+    <ClInclude Include="Widget_xiaoxin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="src\data\user.dat" />
+    <None Include="src\music\coll.ogg" />
+    <None Include="src\music\quiet.flac" />
+    <None Include="src\music\sunnyday.flac" />
+    <None Include="src\video\end.ogg" />
+    <None Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮.psd" />
+    <None Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手.psd" />
+    <None Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果.psd" />
+    <None Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮.psd" />
+    <None Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\1.png" />
+    <Image Include="src\1black.png" />
+    <Image Include="src\2.png" />
+    <Image Include="src\2black.png" />
+    <Image Include="src\3.png" />
+    <Image Include="src\3black.png" />
+    <Image Include="src\5.png" />
+    <Image Include="src\5black.png" />
+    <Image Include="src\6.png" />
+    <Image Include="src\6black.png" />
+    <Image Include="src\7.png" />
+    <Image Include="src\7black.png" />
+    <Image Include="src\8.png" />
+    <Image Include="src\8black.png" />
+    <Image Include="src\9.png" />
+    <Image Include="src\9black.png" />
+    <Image Include="src\bkground_level0.jpg" />
+    <Image Include="src\bkground_level1.jpg" />
+    <Image Include="src\bkground_level2.jpg" />
+    <Image Include="src\bkground_level3.jpg" />
+    <Image Include="src\bkground_lose.jpg" />
+    <Image Include="src\bkground_win.jpg" />
+    <Image Include="src\bullet1.png" />
+    <Image Include="src\bullet10.png" />
+    <Image Include="src\bullet10black.png" />
+    <Image Include="src\bullet11.png" />
+    <Image Include="src\bullet11black.png" />
+    <Image Include="src\bullet1black.png" />
+    <Image Include="src\bullet2.png" />
+    <Image Include="src\bullet2black.png" />
+    <Image Include="src\bullet3.png" />
+    <Image Include="src\bullet3black.png" />
+    <Image Include="src\bullet4.png" />
+    <Image Include="src\bullet4black.png" />
+    <Image Include="src\bullet5.png" />
+    <Image Include="src\bullet5black.png" />
+    <Image Include="src\bullet6.png" />
+    <Image Include="src\bullet6black.png" />
+    <Image Include="src\bullet7.png" />
+    <Image Include="src\bullet7black.png" />
+    <Image Include="src\bullet8.png" />
+    <Image Include="src\bullet8black.png" />
+    <Image Include="src\bullet9.png" />
+    <Image Include="src\bullet9black.png" />
+    <Image Include="src\CrazyDave_zombie_head1.png" />
+    <Image Include="src\enermy1.png" />
+    <Image Include="src\enermy10.jpg" />
+    <Image Include="src\enermy10black.jpg" />
+    <Image Include="src\enermy1black.png" />
+    <Image Include="src\enermy2.png" />
+    <Image Include="src\enermy2black.png" />
+    <Image Include="src\enermy3.png" />
+    <Image Include="src\enermy3black.png" />
+    <Image Include="src\enermy4.png" />
+    <Image Include="src\enermy4black.png" />
+    <Image Include="src\enermy5.png" />
+    <Image Include="src\enermy5black.png" />
+    <Image Include="src\enermy6.png" />
+    <Image Include="src\enermy6black.png" />
+    <Image Include="src\enermy7.jpeg" />
+    <Image Include="src\enermy7black.jpeg" />
+    <Image Include="src\enermy8.jpg" />
+    <Image Include="src\enermy8black.jpg" />
+    <Image Include="src\enermy9.png" />
+    <Image Include="src\enermy9black.png" />
+    <Image Include="src\locked.png" />
+    <Image Include="src\pause.jpg" />
+    <Image Include="src\pause0.jpg" />
+    <Image Include="src\pausepress.jpg" />
+    <Image Include="src\picture\down_click.png" />
+    <Image Include="src\picture\down_hover.png" />
+    <Image Include="src\picture\down_normal.png" />
+    <Image Include="src\picture\Game (2).jpg" />
+    <Image Include="src\picture\Game.jpg" />
+    <Image Include="src\picture\Game.png" />
+    <Image Include="src\picture\Login_Register.jpg" />
+    <Image Include="src\picture\Menu.jpg" />
+    <Image Include="src\picture\Menu_Setting.jpeg" />
+    <Image Include="src\picture\QQ图片20240723153105.jpg" />
+    <Image Include="src\picture\sasuke.jpg" />
+    <Image Include="src\picture\Select_Level.jpg" />
+    <Image Include="src\picture\Select_Plants.jpg" />
+    <Image Include="src\picture\up_click.png" />
+    <Image Include="src\picture\up_hover.png" />
+    <Image Include="src\picture\up_normal.png" />
+    <Image Include="src\picture\Vector.jpg" />
+    <Image Include="src\Zombie_gargantuar_head_redeye.png" />
+    <Image Include="src\Zombie_jackbox_box.png" />
+    <Image Include="src\Zombie_yeti_head.png" />
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮.png" />
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮_白底彩物.png" />
+    <Image Include="src\全屏打击_毁灭大炮\全屏打击_毁灭大炮_黑底白物.png" />
+    <Image Include="src\平平无奇_寒冰射手\平平无奇_寒冰射手_白底彩图.png" />
+    <Image Include="src\平平无奇_寒冰射手\平平无奇_寒冰射手_黑底白图.png" />
+    <Image Include="src\急速高攻_狂野射手\急速高攻_狂野射手_白底彩物.png" />
+    <Image Include="src\急速高攻_狂野射手\急速高攻_狂野射手_黑底白物.png" />
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手.png" />
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手_白底彩物.png" />
+    <Image Include="src\概率秒杀_炸弹投手\概率秒杀_炸弹投手_黑底白物.png" />
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果.png" />
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果_白底彩物.png" />
+    <Image Include="src\概率闪避_阴险坚果\概率闪避_阴险坚果_黑底白物.png" />
+    <Image Include="src\禁忌之力_毁灭菇.png" />
+    <Image Include="src\禁忌之力_毁灭菇_白底彩物.png" />
+    <Image Include="src\禁忌之力_毁灭菇_黑底白物.png" />
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮.png" />
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮_白底彩物.png" />
+    <Image Include="src\速冻时间_冰瓜大炮\速冻时间_冰瓜大炮_黑底白物.png" />
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手.png" />
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手_白底彩物.png" />
+    <Image Include="src\防御反伤_蜗牛射手\防御反伤_蜗牛射手_黑底白物.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\data\user.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="src\music\Failed.wav" />
+    <Media Include="src\music\Login.mp3" />
+    <Media Include="src\music\play.mp3" />
+    <Media Include="src\music\Select.mp3" />
+    <Media Include="src\music\vector.wav" />
+    <Media Include="src\video\Beginner.mp3" />
+    <Media Include="src\video\Beginner.mp4" />
+    <Media Include="src\video\end.mp4" />
+    <Media Include="src\video\thanks.mp3" />
+    <Media Include="src\video\thanks.mp4" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
